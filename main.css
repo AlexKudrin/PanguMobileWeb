@@ -1,0 +1,30 @@
+.top {
+    position:absolute;
+    left:0; right:0;
+    height: 92px;
+}
+.left {
+    position:absolute;
+    left:0; top:92px; bottom: 0;
+    width: 200px;
+    border-right: medium;
+}
+.main {
+    position: absolute;
+    left:178px; top:92px; right:0; bottom:0;
+}
+
+.top { background: #F7F7F7  ; }
+.left { background: #F7F7F7  ; }
+.main { background: #FFFFFF ; }
+
+.link{
+    font-size: 200%;
+    margin-left: 10%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
