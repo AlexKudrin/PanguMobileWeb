@@ -37,7 +37,7 @@ mysqli_close($connect);
             <label for="model_name">Modal name</label>
             <input type="text" class="form-control" name="model_name" value="<?echo $modal["model_name"];?>">
             <label for="model_description">Modal description</label>
-            <textarea class="form-control"  name="model_description" value="<?echo $modal["model_description"];?>" rows="3"> </textarea>
+            <textarea class="form-control"  name="model_description" rows="3"><?echo $modal["model_description"];?></textarea>
         </fieldset>
 
         <button type="submit" class="btn btn-primary">Submit</button>

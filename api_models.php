@@ -29,7 +29,7 @@ if ($a) {
             array_push($response,
                 array('id' => $row[0],
                     'model_name' => $row[1],
-                    'model_image' => $row[2]
+                    'model_description' => $row[4]
                 ));
 
         }
