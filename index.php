@@ -11,6 +11,7 @@ session_start();
 
 $a = $_POST["address"];
 $p = $_POST["password"];
+$port = $_POST["port"];
 
 if ($a && $p){
 
@@ -20,7 +21,7 @@ if ($a && $p){
     if (mysqli_connect_errno())
         echo "Failed to connect to MySQL: " . mysqli_connect_error();
 
-    $result = mysqli_query($connect ,"SELECT password FROM servers WHERE address='".$a."'");
+    $result = mysqli_query($connect ,"SELECT password FROM servers WHERE address='".$a."' and port='".$port."'");
 
     mysqli_close($connect);
 
@@ -31,6 +32,7 @@ if ($a && $p){
     if (substr($enc, 0, strlen($enc)-8) == $user['password']) {
         $_SESSION["address"] = $a;
         $_SESSION["password"] = $p;
+        $_SESSION["port"] = $port;
         header('Location: dashboard.php');
         die();
     }
@@ -63,8 +65,15 @@ if ($a && $p){
                 <div class="col-sm-6 col-md-4 col-md-offset-4">
                     <div class="account-wall">
                         <form class="form-signin" role="form" method="post" action="index.php">
+                            <div class="col-sm-8">
                             <input type="text" class="form-control" placeholder="Pangu server" id="address" name="address">
+                            </div>
+                            <div class="col-sm-4">
+                            <input type="text" class="form-control" placeholder="Port" id="port" name="port">
+                            </div>
+                            <div class="col-sm-12" style="margin-top: 5px;">
                             <input type="password" class="form-control" placeholder="Password" id="password" name="password">
+                            </div>
                             <button class="btn btn-lg btn-primary btn-block" type="submit">
                                 Sign in</button>
                         </form>

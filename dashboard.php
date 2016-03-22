@@ -9,6 +9,7 @@ session_start();
 
 $a = $_SESSION['address'];
 $p = $_SESSION['password'];
+$port = $_SESSION['port'];
 
 include ("db.php");
 
@@ -20,6 +21,9 @@ if ($_POST["model_name"])
 {
     $model_name = $_POST["model_name"];
     $model_description = $_POST["model_description"];
+    $pangu_id = $_POST["pangu_id"];
+    $model_distance = $_POST["model_distance"];
+    $model_speed = $_POST["model_speed"];
 
     $file_name = "images/".$_FILES['model_image']['name'];
     $file_tmp =$_FILES['model_image']['tmp_name'];
@@ -36,15 +40,11 @@ if ($_POST["model_name"])
         move_uploaded_file($file_tmp, $file_name);
     }
 
-    mysqli_query($connect ,"INSERT INTO models (model_name, server_name, model_image, model_description) VALUES ('".$model_name."','".$a."','".$file_name."','".$model_description."')");
+    mysqli_query($connect ,"INSERT INTO models (model_name, server_name, model_image, model_description, pangu_id, distance, speed, server_port) VALUES ('".$model_name."','".$a."','".$file_name."','".$model_description."','".$pangu_id."','".$model_distance."','".$model_speed."','".$port."')");
 
 }
 
 if ($_GET["delete"]){
-    mysqli_query($connect ,"delete from models where id =".$_GET["delete"]."");
-}
-
-if ($_GET["edit"]){
     mysqli_query($connect ,"delete from models where id =".$_GET["delete"]."");
 }
 
@@ -67,14 +67,15 @@ mysqli_close($connect);
 
 <div class="container">
     <div class="top">
-        <h1 class="text-center">Pangu mobile dashboard</h1>
+        <h1 class="text-center" style="color: #337ab7"><a href="http://s613660186.websitehome.co.uk/dashboard.php">Pangu mobile dashboard</a></h1>
     </div>
     <div class="left">
         <a class="link" id="models" href="#">Models</a>
         <a class="link" id="servers" href="#">Server</a><br>
         <a class="link" id="add_model" href="#">Add model</a>
         <a class="link" href="index.php">Logout</a>
-        <p style="margin-left: 10%; margin-top: 20%"> Logged as <?echo $a?></p>
+        <p style="margin-left: 10%; margin-top: 20%"> Logged as <?echo $a?>
+            <br> port : <?echo $port?></p>
     </div>
     <div class="main">
       <?php
@@ -85,6 +86,7 @@ mysqli_close($connect);
           include 'models.php';
       }?>
     </div>
+
 </div>
 
 <script>

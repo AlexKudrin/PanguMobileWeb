@@ -30,17 +30,29 @@ mysqli_close($connect);
 
 ?>
 
-<div class="container">
+<head>
 
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="login.css">
+
+</head>
+
+<div class="container">
+<div style="margin-top: 15px;">
     <form action="edit.php?edit=<?echo $_GET["edit"];?>" method="post" enctype="multipart/form-data">
+        <div class="account-wall" style="margin-bottom: 10px;">
+            <div style="margin-left: 10px; margin-right: 10px;">
         <fieldset class="form-group">
             <label for="model_name">Modal name</label>
             <input type="text" class="form-control" name="model_name" value="<?echo $modal["model_name"];?>">
             <label for="model_description">Modal description</label>
             <textarea class="form-control"  name="model_description" rows="3"><?echo $modal["model_description"];?></textarea>
         </fieldset>
-
+        </div>
+    </div>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
+
+</div>
 
 </div>

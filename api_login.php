@@ -17,6 +17,7 @@ if (mysqli_connect_errno())
 
 $a = $_GET["address"];
 $p = $_GET["password"];
+$port = $_GET["port"];
 
 // check for post data
 if ($a && $p) {
@@ -26,7 +27,7 @@ if ($a && $p) {
     $password =  substr($enc, 0, strlen($enc)-8);
 
     // get a product from products table
-    $result = mysqli_query($connect ,"SELECT * FROM servers WHERE address='".$a."' AND password='".$password."'");
+    $result = mysqli_query($connect ,"SELECT * FROM servers WHERE address='".$a."' AND password='".$password."' and port='".$port."'");
 
     if (mysqli_fetch_assoc($result)!==null){
         // check for empty result

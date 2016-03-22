@@ -16,20 +16,23 @@ if (mysqli_connect_errno())
     echo "Failed to connect to MySQL: " . mysqli_connect_error();
 
 $a = $_GET["address"];
-$p = $_GET["password"];
+$port = $_GET["port"];
 
 // check for post data
 if ($a) {
 
 
     // get a product from products table
-    $result = mysqli_query($connect ,"SELECT * FROM models WHERE server_name='".$a."'");
+    $result = mysqli_query($connect ,"SELECT * FROM models WHERE server_name='".$a."' and server_port='".$port."'");
 
         while($row = mysqli_fetch_array($result)) {
             array_push($response,
                 array('id' => $row[0],
                     'model_name' => $row[1],
-                    'model_description' => $row[4]
+                    'model_description' => $row[4],
+                    'pangu_id' => $row[5],
+                    'model_distance' => $row[6],
+                    'model_speed' => $row[7]
                 ));
 
         }
