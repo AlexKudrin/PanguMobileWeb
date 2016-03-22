@@ -45,6 +45,14 @@ if ($_POST["model_name"])
 }
 
 if ($_GET["delete"]){
+
+    $check_access = mysqli_query($connect ,"SELECT * FROM models WHERE id='".$_GET["delete"]."'");
+    $check = $check_access->fetch_array(MYSQLI_ASSOC);
+
+    if (($check['server_name'] != $a) or ($check['server_port'] != $port)){
+        header('Location: dashboard.php');
+        die();
+    }
     mysqli_query($connect ,"delete from models where id =".$_GET["delete"]."");
 }
 

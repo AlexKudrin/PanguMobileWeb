@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="468dec2a-4f08-4d4e-858c-c415428c0fad" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/add_model.php" afterPath="$PROJECT_DIR$/add_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api_login.php" afterPath="$PROJECT_DIR$/api_login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api_models.php" afterPath="$PROJECT_DIR$/api_models.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/panguappweb.iml" afterPath="$PROJECT_DIR$/.idea/panguappweb.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard.php" afterPath="$PROJECT_DIR$/dashboard.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit.php" afterPath="$PROJECT_DIR$/edit.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.css" afterPath="$PROJECT_DIR$/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.css" afterPath="$PROJECT_DIR$/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models.php" afterPath="$PROJECT_DIR$/models.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registration.php" afterPath="$PROJECT_DIR$/registration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servers.php" afterPath="$PROJECT_DIR$/servers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
     </list>
     <ignored path="panguappweb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,6 +21,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <pharPath>C:\Users\Aleksejs\PhpstormProjects\panguappweb\composer.phar</pharPath>
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -34,20 +34,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="edit.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38505748">
-              <caret line="42" column="61" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
+            <state vertical-scroll-proportion="1.4193548">
+              <caret line="22" column="6" selection-start-line="19" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
               <folding>
                 <element signature="e#6#90#0#PHP" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <marker date="1458675824196" expanded="true" signature="377:406" placeholder="UPDATE model... " />
-                <marker date="1458675824196" expanded="true" signature="377:514" placeholder="SELECT * FRO... models" />
-                <marker date="1458675824196" expanded="true" signature="605:654" placeholder="SELECT * FRO... models" />
+                <marker date="1458679096584" expanded="true" signature="386:434" placeholder="SELECT addre... models" />
+                <marker date="1458679096584" expanded="true" signature="386:435" placeholder="SELECT serve... models" />
+                <marker date="1458679096584" expanded="true" signature="386:436" placeholder="SELECT addre... models" />
+                <marker date="1458679096584" expanded="true" signature="705:734" placeholder="UPDATE model... " />
+                <marker date="1458679096584" expanded="true" signature="705:781" placeholder="UPDATE model... " />
+                <marker date="1458679096584" expanded="true" signature="705:854" placeholder="SELECT * FRO... models" />
+                <marker date="1458679096584" expanded="true" signature="945:994" placeholder="SELECT * FRO... models" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9125249">
+              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding>
+                <marker date="1458679276445" expanded="true" signature="436:491" placeholder="SELECT passw... servers" />
+                <marker date="1458679276445" expanded="true" signature="436:508" placeholder="SELECT passw... servers" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="servers.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/servers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.6451614">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="45" />
+              <folding>
+                <marker date="1458673511304" expanded="true" signature="379:430" placeholder="SELECT name servers" />
+                <marker date="1458673511304" expanded="true" signature="379:447" placeholder="SELECT name servers" />
+                <marker date="1458673511304" expanded="true" signature="533:587" placeholder="SELECT COUNT... models" />
+                <marker date="1458673511304" expanded="true" signature="533:615" placeholder="SELECT COUNT... models" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dashboard.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.225806">
+              <caret line="58" column="2" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="23" />
+              <folding>
+                <marker date="1458679229422" expanded="true" signature="1084:1347" placeholder="INSERT INTO models... " />
+                <marker date="1458679229422" expanded="true" signature="1422:1473" placeholder="SELECT * FRO... models" />
+                <marker date="1458679229422" expanded="true" signature="1701:1750" placeholder="delete from " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -55,7 +111,7 @@
       <file leaf-file-name="models.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.064516">
+            <state vertical-scroll-proportion="-15.709678">
               <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="56" />
               <folding>
                 <marker date="1458675245477" expanded="true" signature="381:472" placeholder="SELECT * FRO... models" />
@@ -74,18 +130,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/db.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/api_login.php" />
         <option value="$PROJECT_DIR$/api_models.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/registration.php" />
         <option value="$PROJECT_DIR$/servers.php" />
         <option value="$PROJECT_DIR$/login.css" />
         <option value="$PROJECT_DIR$/main.css" />
         <option value="$PROJECT_DIR$/add_model.php" />
         <option value="$PROJECT_DIR$/models.php" />
-        <option value="$PROJECT_DIR$/dashboard.php" />
+        <option value="$PROJECT_DIR$/composer.bat" />
+        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/edit.php" />
+        <option value="$PROJECT_DIR$/dashboard.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -97,7 +154,12 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="width" value="1920" />
     <option name="height" value="1032" />
@@ -214,15 +276,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1032" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27435064" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3272101" sideWeight="0.504329" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34902412" sideWeight="0.504329" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3272101" sideWeight="0.495671" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34902412" sideWeight="0.495671" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -261,9 +323,13 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1458675824196" expanded="true" signature="377:406" placeholder="UPDATE model... " />
-            <marker date="1458675824196" expanded="true" signature="377:514" placeholder="SELECT * FRO... models" />
-            <marker date="1458675824196" expanded="true" signature="605:654" placeholder="SELECT * FRO... models" />
+            <marker date="1458679096584" expanded="true" signature="386:434" placeholder="SELECT addre... models" />
+            <marker date="1458679096584" expanded="true" signature="386:435" placeholder="SELECT serve... models" />
+            <marker date="1458679096584" expanded="true" signature="386:436" placeholder="SELECT addre... models" />
+            <marker date="1458679096584" expanded="true" signature="705:734" placeholder="UPDATE model... " />
+            <marker date="1458679096584" expanded="true" signature="705:781" placeholder="UPDATE model... " />
+            <marker date="1458679096584" expanded="true" signature="705:854" placeholder="SELECT * FRO... models" />
+            <marker date="1458679096584" expanded="true" signature="945:994" placeholder="SELECT * FRO... models" />
           </folding>
         </state>
       </provider>
@@ -303,9 +369,13 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1458675824196" expanded="true" signature="377:406" placeholder="UPDATE model... " />
-            <marker date="1458675824196" expanded="true" signature="377:514" placeholder="SELECT * FRO... models" />
-            <marker date="1458675824196" expanded="true" signature="605:654" placeholder="SELECT * FRO... models" />
+            <marker date="1458679096584" expanded="true" signature="386:434" placeholder="SELECT addre... models" />
+            <marker date="1458679096584" expanded="true" signature="386:435" placeholder="SELECT serve... models" />
+            <marker date="1458679096584" expanded="true" signature="386:436" placeholder="SELECT addre... models" />
+            <marker date="1458679096584" expanded="true" signature="705:734" placeholder="UPDATE model... " />
+            <marker date="1458679096584" expanded="true" signature="705:781" placeholder="UPDATE model... " />
+            <marker date="1458679096584" expanded="true" signature="705:854" placeholder="SELECT * FRO... models" />
+            <marker date="1458679096584" expanded="true" signature="945:994" placeholder="SELECT * FRO... models" />
           </folding>
         </state>
       </provider>
@@ -345,9 +415,13 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1458675824196" expanded="true" signature="377:406" placeholder="UPDATE model... " />
-            <marker date="1458675824196" expanded="true" signature="377:514" placeholder="SELECT * FRO... models" />
-            <marker date="1458675824196" expanded="true" signature="605:654" placeholder="SELECT * FRO... models" />
+            <marker date="1458679096584" expanded="true" signature="386:434" placeholder="SELECT addre... models" />
+            <marker date="1458679096584" expanded="true" signature="386:435" placeholder="SELECT serve... models" />
+            <marker date="1458679096584" expanded="true" signature="386:436" placeholder="SELECT addre... models" />
+            <marker date="1458679096584" expanded="true" signature="705:734" placeholder="UPDATE model... " />
+            <marker date="1458679096584" expanded="true" signature="705:781" placeholder="UPDATE model... " />
+            <marker date="1458679096584" expanded="true" signature="705:854" placeholder="SELECT * FRO... models" />
+            <marker date="1458679096584" expanded="true" signature="945:994" placeholder="SELECT * FRO... models" />
           </folding>
         </state>
       </provider>
@@ -508,14 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.8387096">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api_models.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.5161295">
@@ -554,38 +620,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.935484">
-          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1458672160236" expanded="true" signature="436:491" placeholder="SELECT passw... servers" />
-            <marker date="1458672160236" expanded="true" signature="436:508" placeholder="SELECT passw... servers" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-31.935484">
           <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/servers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6129032">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="60" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1458673511304" expanded="true" signature="379:430" placeholder="SELECT name servers" />
-            <marker date="1458673511304" expanded="true" signature="379:447" placeholder="SELECT name servers" />
-            <marker date="1458673511304" expanded="true" signature="533:587" placeholder="SELECT COUNT... models" />
-            <marker date="1458673511304" expanded="true" signature="533:615" placeholder="SELECT COUNT... models" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,27 +641,91 @@
         <state vertical-scroll-proportion="-11.870968">
           <caret line="37" column="69" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="69" />
           <folding>
-            <element signature="n#style#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6451614">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="45" />
+          <folding>
+            <marker date="1458673511304" expanded="true" signature="379:430" placeholder="SELECT name servers" />
+            <marker date="1458673511304" expanded="true" signature="379:447" placeholder="SELECT name servers" />
+            <marker date="1458673511304" expanded="true" signature="533:587" placeholder="SELECT COUNT... models" />
+            <marker date="1458673511304" expanded="true" signature="533:615" placeholder="SELECT COUNT... models" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6321839">
-          <caret line="42" column="287" selection-start-line="42" selection-start-column="287" selection-end-line="42" selection-end-column="287" />
+        <state vertical-scroll-proportion="-9.225806">
+          <caret line="58" column="2" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="23" />
           <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1458675632792" expanded="true" signature="1084:1347" placeholder="INSERT INTO models... " />
-            <marker date="1458675632792" expanded="true" signature="1405:1454" placeholder="delete from " />
+            <marker date="1458679229422" expanded="true" signature="1084:1347" placeholder="INSERT INTO models... " />
+            <marker date="1458679229422" expanded="true" signature="1422:1473" placeholder="SELECT * FRO... models" />
+            <marker date="1458679229422" expanded="true" signature="1701:1750" placeholder="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4193548">
+          <caret line="22" column="6" selection-start-line="19" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <marker date="1458679096584" expanded="true" signature="386:434" placeholder="SELECT addre... models" />
+            <marker date="1458679096584" expanded="true" signature="386:435" placeholder="SELECT serve... models" />
+            <marker date="1458679096584" expanded="true" signature="386:436" placeholder="SELECT addre... models" />
+            <marker date="1458679096584" expanded="true" signature="705:734" placeholder="UPDATE model... " />
+            <marker date="1458679096584" expanded="true" signature="705:781" placeholder="UPDATE model... " />
+            <marker date="1458679096584" expanded="true" signature="705:854" placeholder="SELECT * FRO... models" />
+            <marker date="1458679096584" expanded="true" signature="945:994" placeholder="SELECT * FRO... models" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.064516">
+        <state vertical-scroll-proportion="-15.709678">
           <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="56" />
           <folding>
             <marker date="1458675245477" expanded="true" signature="381:472" placeholder="SELECT * FRO... models" />
@@ -631,18 +734,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edit.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38505748">
-          <caret line="42" column="61" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.9125249">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1458675824196" expanded="true" signature="377:406" placeholder="UPDATE model... " />
-            <marker date="1458675824196" expanded="true" signature="377:514" placeholder="SELECT * FRO... models" />
-            <marker date="1458675824196" expanded="true" signature="605:654" placeholder="SELECT * FRO... models" />
+            <marker date="1458679276445" expanded="true" signature="436:491" placeholder="SELECT passw... servers" />
+            <marker date="1458679276445" expanded="true" signature="436:508" placeholder="SELECT passw... servers" />
           </folding>
         </state>
       </provider>

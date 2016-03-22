@@ -9,6 +9,7 @@
 session_start();
 
 $a = $_SESSION["address"];
+$port = $_SESSION["port"];
 
 include ("db.php");
 
@@ -16,8 +17,16 @@ $connect = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_DBNAME);
 if (mysqli_connect_errno())
     echo "Failed to connect to MySQL: " . mysqli_connect_error();
 
-if ($_POST["model_name"]){
-       mysqli_query($connect ,"UPDATE models SET model_name='".$_POST["model_name"]."', model_description='".$_POST["model_description"]."' WHERE id='".$_GET["edit"]."'");
+$check_access = mysqli_query($connect ,"SELECT * FROM models WHERE id='".$_GET["edit"]."'");
+$check = $check_access->fetch_array(MYSQLI_ASSOC);
+
+if (($check['server_name'] != $a) or ($check['server_port'] != $port)){
+    header('Location: dashboard.php');
+    die();
+}
+
+if ($_POST["model_name"] or $_POST["model_description"]){
+       mysqli_query($connect ,"UPDATE models SET model_name='".$_POST["model_name"]."', model_description='".addslashes($_POST["model_description"])."' WHERE id='".$_GET["edit"]."'");
     header('Location: dashboard.php');
     die();
 }

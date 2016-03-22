@@ -44,6 +44,8 @@ if ($a && $p){
 
 }
 
+mysqli_close($connect);
+
 ?>
 
     <head>
